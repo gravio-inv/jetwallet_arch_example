@@ -42,6 +42,8 @@
 │   │   │   └── auth_store.dart
 │   │   ├── helpers # Различные хелперы
 │   │   │   └── auth_helper.dart
+│   │   ├── tests # Тестирование
+│   │   │   └── auth_test.dart
 │   │   └── ui # Весь UI
 │   │       ├── widgets
 │   │       │    └── auth_widget.dart
@@ -66,7 +68,7 @@
         │   └── model_name.dart
         ├── data_sources # Запросы post, get 
         │   └── auth_data_sources.dart
-        ├── mappers # Различные мапперы для данного модуля
+        ├── mappers/helpers # Различные мапперы и хелперы для данного модуля
         │   └── auth_mapper.dart
         ├── usecases/tests # Прописанные тесты для данного модуля
         │   └── use_case_for_some_event.dart
